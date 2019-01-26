@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q | Home</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script type="text/javascript" src="jscript.js"></script>
+</head>
+
+<body id="index" class="home">
+	<header id="header_" class="body">
+		<h1>Questioner</h1>
+		<nav>
+			<ul>
+				<li class="active"><a href="#">Meetup</a></li>
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Info</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Admin</a></li>
+			</ul>
+		</nav>
+	</header>
+<!--#######################################################-->
+	
+	<aside id="featured" class="body">
+		<article>
+		  <hgroup>
+		    <h2>Meetup</h2>
+		    <ol>
+		    	<li><h3><a id="mt" href="#">The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus</a></h3></li>
+		    </ol>
+		  </hgroup>
+		</article>
+	</aside>
+	<!--#######################################################-->
+	<section class="body" id="comments">
+		<header>
+			<h2>Comments</h2>
+		</header>
+		<ol id="ordered_posts">
+			<li>
+				<article >
+					<div class="user_comments">
+						<p id="post">Enjoyed the last meetup held here in the city. First comment for test!</p><footer id="commentor">By s mukuria.</footer><button id="upvote">Upvote</button> <button id="downvote">Downvote</button>
+						<hr>
+						<p>Second comment, lets see how this comes out.</p><footer id="commentor">By s mukuria.</footer>
+						<button id="upvote">Upvote</button> <button id="downvote">Downvote</button>
+					</div>
+					<div id="respond">
+						<h3>Leave Your Comment here..</h3>
+
+						<form method="post" id="commentform">
+							<label for="comment_author" class="required">Your name</label>
+						    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+						    <label for="email" class="required">Your email;</label>
+						    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+						    <label for="comment" class="required">Your message</label>
+						    <textarea name="comment" id="comment" rows="5" tabindex="4"  required="required"></textarea>
+
+						    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+						    <input name="submit" type="submit" value="Submit comment" />
+					  	</form>
+					</div>
+				</article>
+			</li>
+		</ol>
+	<section class="bottom">
+		<p>Copyright &copy samuel</p>
+	</section>
+	</section>
+	</body>
+</html>
